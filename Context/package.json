@@ -1,0 +1,20 @@
+{
+  "name": "@library/context-engine",
+  "version": "0.1.0",
+  "description": "Library Context Engine - selector/composer of bounded task context. Backend/terminal-first, agent-neutral, game-independent.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test --experimental-strip-types \"test/*.test.ts\"",
+    "cli": "node --experimental-strip-types src/cli/cli.ts",
+    "mcp": "node --experimental-strip-types src/mcp/server.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.1",
+    "typescript": "^5.9.2"
+  }
+}

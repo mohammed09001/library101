@@ -1,0 +1,43 @@
+{
+  "generated": "/mnt/data/Library Engine Exit Plan",
+  "stats": {
+    "Memory": [
+      46,
+      27
+    ],
+    "Context": [
+      42,
+      21
+    ],
+    "Repository Search": [
+      46,
+      22
+    ],
+    "Repository Analysis": [
+      52,
+      30
+    ],
+    "Repository Sync": [
+      36,
+      19
+    ],
+    "Study Document": [
+      35,
+      18
+    ],
+    "Study Lineage": [
+      29,
+      15
+    ],
+    "Library Synchronization": [
+      43,
+      25
+    ],
+    "Project Projection": [
+      38,
+      20
+    ]
+  },
+  "total_new_tasks": 367,
+  "total_new_executions": 197
+}
